@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace CoreApi.Services
 {
-    public class UserService
+    public class UserService :IUserService
     {
         private readonly HttpClient _httpClient;
 
